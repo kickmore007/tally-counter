@@ -1,0 +1,47 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+button {
+    border: 100px;
+    border-color: black 10px;
+    font-size: 70px;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#counter {
+    border: 50px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#poke {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+
+button:hover {
+    background-color: #0009;
+    color: white;
+    transition: .3s;
+}
+
+
+html {
+    background: url(bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

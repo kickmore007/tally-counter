@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="poke"><button>click</button></div>
+        <div id="counter">0</div>
+
+
+        <script type='text/javascript'>
+            var poke = document.getElementById('poke');
+            var cmp = document.getElementById('counter');
+            poke.addEventListener('click', myfunction)
+
+
+            function myfunction() {
+                cmp.innerHTML = parseInt(cmp.innerHTML) +1;
+                console.log("gamer");
+            }
+
+        </script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+        </style>
+    </div>
+  </body>
+</html>
+
